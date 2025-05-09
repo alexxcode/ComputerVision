@@ -2,11 +2,11 @@
 
 Este proyecto tiene como objetivo desarrollar un sistema capaz de reconocer actividades industriales específicas, como "soldadura" (welding) y "corte con esmeriladora" (grinding), a partir de secuencias de video utilizando técnicas de Computer Vision y Deep Learning.
 
-## 🎯 Objetivo
+## Objetivo
 
 El sistema analiza un flujo de video (ya sea un archivo grabado o una transmisión en vivo desde una cámara) para identificar y clasificar en tiempo real las actividades industriales que se están llevando a cabo.
 
-## ✨ Características Principales
+##  Características Principales
 
 * **Entrenamiento de Modelo Personalizado:** Utiliza una arquitectura CNN+LSTM para aprender características espaciales y temporales de los videos.
 * **Procesamiento de Video:** Scripts para extraer secuencias de frames de videos y prepararlos para el entrenamiento.
@@ -28,11 +28,8 @@ Actualmente, el sistema está enfocado en reconocer las siguientes actividades (
 * NumPy
 * Scikit-learn
 
-## 📁 Estructura del Proyecto
 
-
-
-## ⚙️ Instalación
+##  Instalación
 
 1.  **Requisitos Previos:**
     * Python 3.8 o superior instalado.
@@ -116,7 +113,7 @@ Este paso carga el modelo entrenado y lo utiliza para predecir actividades en un
     ```
 * Se abrirá una ventana mostrando el video con la actividad predicha y (si aplica) rectángulos verdes alrededor de las zonas de movimiento detectadas durante la actividad. Presiona 'q' para cerrar la ventana.
 
-## 🔧 Personalización y Parámetros Clave
+##  Personalización y Parámetros Clave
 
 Puedes ajustar varios parámetros en la parte superior de los scripts (`video_processor.py`, `model.py`, `predict_activity.py`):
 
