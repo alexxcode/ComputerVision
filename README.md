@@ -80,21 +80,10 @@ Este paso lee tus videos, los divide en secuencias de frames y los prepara para 
 
 Este paso define la arquitectura de la red neuronal (CNN+LSTM), carga los datos procesados y entrena el modelo.
 
-* Abre el archivo `model.py` en un editor de texto.
-* Localiza la sección de entrenamiento (busca `model.fit(...)`). Si está comentada, descoméntala para habilitar el entrenamiento. Puedes ajustar parámetros como `epochs` y `batch_size`.
-    ```python
-    # history = model.fit(X_train, y_train,
-    #                     epochs=50,  # Ajusta según sea necesario
-    #                     batch_size=8, # Ajusta según tu memoria
-    #                     validation_data=(X_test, y_test),
-    #                     callbacks=[reduce_lr, early_stopping]) # Descomentar para entrenar
-    ```
-* Guarda los cambios en `model.py`.
-* Ejecuta el script desde tu terminal:
+* Ejecuta el script desde la terminal:
     ```bash
     python model.py
     ```
-* El entrenamiento puede tardar considerablemente dependiendo de la cantidad de datos, la complejidad del modelo y tu hardware.
 * Una vez finalizado (o si descomentaste la sección de guardado), se generará un archivo llamado `activity_recognition_model.keras` (o el nombre que hayas configurado), que contiene tu modelo entrenado.
 
 **Paso 3: Inferencia y Predicción en Nuevos Videos**
