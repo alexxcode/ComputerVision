@@ -20,6 +20,8 @@ Actualmente, el sistema está enfocado en reconocer las siguientes actividades (
 
 1.  Soldadura (Welding)
 2.  Corte con Esmeriladora (Grinding)
+3.  Corte con plasma
+4.  
 
 ##  Tecnologías Utilizadas
 
