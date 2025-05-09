@@ -1,6 +1,7 @@
 # Reconocimiento de Actividades Industriales en Video
 
 Este proyecto tiene como objetivo desarrollar un sistema capaz de reconocer actividades industriales específicas, como "soldadura" (welding) y "corte con esmeriladora" (grinding), a partir de secuencias de video utilizando técnicas de Computer Vision y Deep Learning.
+Las actividades se pueden expandir, modificando el codigo segun sea necesario.
 
 ## Objetivo
 
@@ -13,14 +14,14 @@ El sistema analiza un flujo de video (ya sea un archivo grabado o una transmisi�
 * **Inferencia en Tiempo Real/Video:** Capacidad de cargar un modelo entrenado para predecir actividades en nuevos videos.
 * **Visualización:** Muestra el video con la etiqueta de la actividad predicha y resalta las regiones de movimiento asociadas a la actividad detectada.
 
-## 🛠️ Actividades Reconocidas (Ejemplos)
+## Actividades Reconocidas (Ejemplos)
 
 Actualmente, el sistema está enfocado en reconocer las siguientes actividades (pero puede ser extendido):
 
 1.  Soldadura (Welding)
 2.  Corte con Esmeriladora (Grinding)
 
-## 💻 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * Python 3.8+
 * OpenCV
